@@ -1,0 +1,2 @@
+project.manifest = check-manifest.xml
+base.sourcePath = source;check

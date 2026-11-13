@@ -1,0 +1,4 @@
+bin/
+private/
+cards.local.json
+resources/data/cards.json

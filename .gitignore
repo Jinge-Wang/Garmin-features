@@ -10,3 +10,19 @@ logs/
 __pycache__/
 # editor tooling
 .claude/
+# card-wallet: your cards, their pictures, the data built from them, the signing key
+private/
+cards.local.json
+card-wallet/resources/data/cards.json
+card-wallet/source/gen/
+*.prg
+*.prg.debug.xml
+developer_key*
+# ready-made files that are meant to be shared
+!card-wallet/release/*.prg
+!moto-nav/vibe-test/release/*.prg
+# local notes that stay on the build computer
+card-wallet/research/
+moto-nav/research/
+door-lock/
+reports/

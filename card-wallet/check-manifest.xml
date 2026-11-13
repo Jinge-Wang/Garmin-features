@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- The screen check build (see check/CheckApp.mc): the widget's code as a watch app.
+     Not for the watch. It asks for the widget's one permission because the
+     widget's source is compiled into it. -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="009fff4a684748d1bed3a4157dcca1be" type="watch-app" name="@Strings.AppName" entry="CheckApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
+        <iq:products>
+            <iq:product id="fenix6xpro"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

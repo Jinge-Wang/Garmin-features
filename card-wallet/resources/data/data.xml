@@ -1,0 +1,4 @@
+<!-- cards.json is written by make_cards.sh and is never committed. -->
+<resources>
+    <jsonData id="cards" filename="cards.json"/>
+</resources>

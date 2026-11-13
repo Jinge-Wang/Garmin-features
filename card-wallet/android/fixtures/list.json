@@ -1,0 +1,48 @@
+{
+  "cards" : [
+    {
+      "image" : "qr-short-l.png",
+      "name" : "Short L"
+    },
+    {
+      "image" : "qr-medium-m.png",
+      "name" : "Medium M"
+    },
+    {
+      "image" : "qr-long-q.png",
+      "name" : "Long Q"
+    },
+    {
+      "image" : "qr-longer-h.png",
+      "name" : "Longer H"
+    },
+    {
+      "image" : "qr-digits-m.png",
+      "name" : "Digits M"
+    },
+    {
+      "image" : "qr-large-m.png",
+      "name" : "Large M"
+    },
+    {
+      "image" : "qr-screenshot.png",
+      "name" : "Screenshot"
+    },
+    {
+      "image" : "qr-photo.png",
+      "name" : "Photo"
+    },
+    {
+      "name" : "Bar even digits",
+      "number" : "000012345678"
+    },
+    {
+      "name" : "Bar odd digits",
+      "number" : "1234567"
+    },
+    {
+      "name" : "Bar text",
+      "number" : "SAMPLE-0042"
+    }
+  ]
+}

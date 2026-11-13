@@ -1,0 +1,4 @@
+project.manifest = manifest.xml
+# Only source/: without this line every .mc file in the project is compiled in,
+# the screen check included.
+base.sourcePath = source

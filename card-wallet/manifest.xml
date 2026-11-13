@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- A widget with one permission, the phone link (a card sent from the phone
+     app). Its code makes no web request, and build.sh checks that. -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="3322e9a040a44fb5944b215574981322" type="widget" name="@Strings.AppName" entry="CardsApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
+        <iq:products>
+            <iq:product id="fenix6xpro"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

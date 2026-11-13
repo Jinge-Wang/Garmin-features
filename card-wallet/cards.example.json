@@ -1,0 +1,6 @@
+{
+  "cards": [
+    { "name": "Sample", "text": "SAMPLE-CARD-0000" },
+    { "name": "Sample bar", "number": "0000 1234 5678" }
+  ]
+}

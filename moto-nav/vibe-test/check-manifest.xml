@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- A watch app with no permissions: the Connect IQ runtime gives it no access
+     to the phone link, the network, positioning or sensors. A watch app stays
+     open until the rider leaves it; a widget would time out. -->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="88073f89f63b465e8d9a0cc5a8448c14" type="watch-app" name="@Strings.AppName" entry="CheckVibeApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
+        <iq:products>
+            <iq:product id="fenix6xpro"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
