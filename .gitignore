@@ -1,0 +1,12 @@
+# Garmin's files and local build products, for every project folder
+original/
+final/
+bin/
+state/
+logs/
+*.wide
+*.glyphs
+.DS_Store
+__pycache__/
+# editor tooling
+.claude/
